@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @ViewBag.Greeting Welcome to the C# Seminar 
+        <p>We are going to have an important seminar on ASP.NET MVC features.<br />
+        To do: Fill the form and submit.
+        </p>
+        @Html.ActionLink("RSVP Now", "RsvpForm")
+    </div>
+</body>
+</html>
